@@ -77,6 +77,7 @@ polygon = PackedVector2Array(-48, -25, 67, -23, 65, 121, -2, 120)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D2"]
 polygon = PackedVector2Array(-48, -25, 67, -23, 65, 121, -2, 120)
+disabled = true
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2(584, 198)
@@ -88,6 +89,7 @@ polygon = PackedVector2Array(19, -22, 52, -20, 63, 89, 23, 85)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
 polygon = PackedVector2Array(19, -22, 52, -20, 63, 89, 23, 85)
+disabled = true
 
 [node name="Area2D3" type="Area2D" parent="."]
 position = Vector2(49, 706)
